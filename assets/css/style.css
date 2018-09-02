@@ -221,25 +221,26 @@ footer .cv-pdf i:hover {
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
 /* ----------------------------------Personal Info*/
 
-.personal-info-item{
+.personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
 
 .personal-info-item .key,
-.personal-info-item .value{
+.personal-info-item .value {
     padding-right: 8px;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p{
+.personal-info-item .value p {
     margin: 0;
 }
 
-.personal-info-item .key{
+.personal-info-item .key {
     display: inline-block;
     width: 30%;
     margin-right: 21px;
@@ -247,20 +248,39 @@ footer .cv-pdf i:hover {
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700;
 }
 
-.personal-info-item .value{
+.personal-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
 }
 
+/* ----------------------------------Skills*/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section{
+    margin: 40px 20px; 
+}
 
 /* ----------------------------------Media Queries*/
 
-@media(min-width: 992px){
+@media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
         float: none;
