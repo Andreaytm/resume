@@ -26,10 +26,9 @@
     background-color: #525252;
 }
 
-body{
+body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    background-color: #525252;
     color: #555555;
 }
 
@@ -216,11 +215,17 @@ footer .cv-pdf i:hover {
 
 /* ----------------------------------Three Reasons*/
 
-.three-reasons-icon{
+.three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
 }
 
-.three-reasons-heading{
+.three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* ----------------------------------Personal Info*/
+
+.bg-color-personal-info{
+    background: #f4f4f4;
 }
