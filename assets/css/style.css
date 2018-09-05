@@ -34,12 +34,20 @@
     background-color: #9b59b6;
 }
 
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
 .ui-menu-color-contact {
     background-color: #3498db;
 }
 
 .ui-menu-color-download-cv {
-    background-color: #525252;
+    background-color: #f8b700;
 }
 
 body {
@@ -360,6 +368,17 @@ button[type="submit"] {
     background-color: #e84610;
     color: #fafafa;
 }
+
+/* ----------------------------------Interests*/
+
+div #map {
+    min-height: 360px;
+}
+
+/* ----------------------------------GitHub*/
+
+
+
 
 /* ----------------------------------Media Queries*/
 
